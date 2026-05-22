@@ -200,7 +200,7 @@ const EventsPage = () => {
                 </div>
                 <div className="form-group">
                   <label>Kapasitas</label>
-                  <input type="number" value={form.capacity} onChange={(e) => setForm({ ...form, capacity: e.target.value })}  min="0" />
+                  <input type="number" value={form.capacity} onChange={(e) => setForm({ ...form, capacity: e.target.value })} min="0" />
                 </div>
               </div>
               <div className="form-row">
@@ -215,7 +215,7 @@ const EventsPage = () => {
                 </div>
                 <div className="form-group">
                   <label>URL Gambar</label>
-                  <input type="url" value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })} />
+                  <input type="url" value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })}  />
                 </div>
               </div>
               <div className="form-group">

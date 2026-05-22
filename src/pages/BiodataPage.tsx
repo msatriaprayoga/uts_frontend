@@ -1,4 +1,4 @@
-import { Github, Instagram, Linkedin, Mail, MapPin, Phone, BookOpen, Code2, GraduationCap } from 'lucide-react';
+import { Mail, MapPin, Phone, BookOpen, Code2, GraduationCap } from 'lucide-react';
 
 const BiodataPage = () => {
   return (
